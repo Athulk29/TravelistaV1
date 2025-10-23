@@ -2,7 +2,6 @@ import React from 'react';
 import Input from '../components/InputBox/Input';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import User from '../../../server/src/models/user-model';
 import { userSignup } from '../store/slices/user-slice';
 import { Link, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react';
